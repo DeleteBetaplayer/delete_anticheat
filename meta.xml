@@ -1,4 +1,5 @@
 <resource>
+    <min_mta_version server="1.5.4-9.11413" />
     <name></name>
     <description>Anticheat</description>
     <version>1.0</version>
