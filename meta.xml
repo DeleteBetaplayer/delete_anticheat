@@ -5,6 +5,5 @@
     <version>1.0</version>
     <author>Delete Medya</author>
     <script src="dosyalar/config.lua" type="shared" />
-    <script src="auto_update.lua" type="server" />
     <script src="dosyalar/server.lua" type="server" />
 </resource>
