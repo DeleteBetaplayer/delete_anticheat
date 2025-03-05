@@ -42,3 +42,10 @@ serialList = {
     "A29A833EE85E249D0A5F29489A683CB4",  -- Bu serial'e sahip oyuncu komut kullanabilir
     -- Yeni serial numaralarını buraya ekleyebilirsiniz
 }
+
+
+nickSerialList = {
+    ["F1593F9ADDC1D02B4E6A94CADBE41E82"] = true,
+    ["SERIAL_2"] = true,
+    ["SERIAL_3"] = true
+}
