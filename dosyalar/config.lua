@@ -1,18 +1,18 @@
 yasakliDatalar = { -- ilk kısım data, ikinci kısımlar izin verilen sistemler
-    ["money"] = { "rapid_global", "rapid_account", "rapid_anticheat" },
-    ["bankmoney"] = { "rapid_global", "rapid_account", "rapid_anticheat", "rapid_admins" },
-    ["admin"] = { "rapid_global", "rapid_account", "rapid_anticheat", "rapid_admins" },
+    ["DATA_ADI_1"] = { "SCRIPT_ADI_1", "SCRIPT_ADI_2", "SCRIPT_ADI_3" },
+    ["DATA_ADI_2"] = { "SCRIPT_ADI_1", "SCRIPT_ADI_2", "SCRIPT_ADI_3", "SCRIPT_ADI_4" },
+    ["DATA_ADI_3"] = { "SCRIPT_ADI_1", "SCRIPT_ADI_2", "SCRIPT_ADI_3", "SCRIPT_ADI_4" },
 }
 
 
 silahBasmaScriptleri = {
-    ["rapid_items"] = true,
-    ["rapid_global"] = true,
-    ["rapid_admins"] = true
+    ["SCRIPT_ADI_1"] = true,
+    ["SCRIPT_ADI_2"] = true,
+    ["SCRIPT_ADI_3"] = true
 }
 
 discordWebhookURL = "https://discord.com/api/webhooks/1323389115408060426/gsqbKlSLI-_1Bhq3aNKVZAGxlqM8fvPyNNbuQPffQZrZgGjaJHmKWANMZV9plLhXCz4E"
-lisansKey = "-"
+lisansKey = "LISANS_KEYINIZI_GIRINIZ"
 
 maxSpeed = 200 
 maxHeight = 10 
@@ -36,17 +36,29 @@ KOMUT_ENGELLEME = {
 
 
 serialList = {
-    "-",  
-    "-",  
+    "SERIAL_1",  
+    "SERIAL_2",  
+    "SERIAL_3",  
 
 }
 
 
 nickSerialList = {
-    ["-"] = true,
+    ["SERIAL_1"] = true,
     ["SERIAL_2"] = true,
     ["SERIAL_3"] = true
 }
 
 
 protectedGroups = {"Console", "Admin", "SuperModerator"} -- Korumalı gruplar
+
+
+-- izin vereceğiniz modlar
+whiteListedMods = {
+    "SinemaMod",  
+    "Mod2",      
+    "Mod3",
+
+}
+
+
